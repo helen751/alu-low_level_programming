@@ -2,7 +2,7 @@
 
 /**
  * print_unsigned - Prints an unsigned integer
- * @n: The integer to print
+ * @n: The unsigned integer to print
  */
 static void print_unsigned(unsigned int n)
 {
@@ -14,7 +14,7 @@ static void print_unsigned(unsigned int n)
 
 /**
  * print_number - Prints a signed integer
- * @n: The integer to print
+ * @n: The signed integer to print
  */
 static void print_number(int n)
 {
@@ -34,7 +34,7 @@ static void print_number(int n)
 }
 
 /**
- * print_to_98 - Prints all natural numbers from n to 98
+ * print_to_98 - Prints all integers from n to 98
  * @n: The number at which to start
  */
 void print_to_98(int n)
