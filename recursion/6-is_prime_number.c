@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * check_prime - checks recursively whether n has a divisor
+ * check_prime - recursively checks whether a number has a divisor
  * @n: number to check
- * @divisor: current possible divisor
+ * @divisor: possible divisor
  *
  * Return: 1 if n is prime, otherwise 0
  */
-static int check_prime(int n, int divisor)
+int check_prime(int n, int divisor)
 {
 	if (divisor > n / divisor)
 		return (1);
+
 	if (n % divisor == 0)
 		return (0);
 
